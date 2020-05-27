@@ -6,7 +6,7 @@
 dans votre projet OpenShift déployer une base de données MySql
 
 ```
-oc new-app --name=mysql debezium/example-mysql:0.9
+oc new-app --name=mysql-dev(xx) debezium/example-mysql:0.9
 
 oc set env dc/mysql MYSQL_ROOT_PASSWORD=debezium  MYSQL_USER=mysqluser MYSQL_PASSWORD=mysqlpw
 ```
